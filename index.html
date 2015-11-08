@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
+<meta charset="UTF-8">
 	<title>Football in Iceland</title>
-	<script src="js/lib/angular.min.js"></script>
-	<script src="js/lib/angular-route.min.js"></script>
 </head>
 <body>
-	<div ng-app="">
-		
+	<div class="container" ng-init="clubs=[{name: 'Breiðablik', city: 'Kópavogur'}, {name: 'KR', city: 'Reykjavík'}, {name: 'BÍ', city: 'Ísafjörður'}, {name: 'Víkingur R', city: 'Reykjavík'}]">
+
+	Name:
+	<br>
+	<input type="text" ng-model="name">
+
+	<ul>
+		<li ng-repeat="club in clubs | filter: name | orderBy: 'city'">{{ club.name }} - {{ club.city }}</li>
+	</ul>
 	</div>
+
+	<script src="js/lib/angular.min.js"></script>
+	<script src="js/lib/angular-route.min.js"></script>
 </body>
 </html>
