@@ -1,7 +1,15 @@
 <div>
 	<ul>
-		<li ng-repeat="match in matches">
-			Date: {{ match.date }}<br>Time: {{ match.time }}<br> Teams: {{ match.teams }}<br> Venue: {{ match.location }}<br> Score: {{ match.scores }}<br><br>
+		<li ng-repeat="match in matches" class="row center">
+			<div class="panel">
+			Date: {{ match.date }}<br>
+			Time: {{ match.time }}<br>
+			Teams: {{ match.teams }}<br>
+			Venue: {{ match.location }}<br>
+			Score: {{ match.scores }}
+			<br><br>
+			</div>
+
 		</li>
 	</ul>
 </div>
