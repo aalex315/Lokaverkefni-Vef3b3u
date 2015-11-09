@@ -20,3 +20,15 @@ h1{
 .panel{
 	padding: 0;
 }
+
+.match{
+	background-color: #e8e8e8;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 1px;
+}
+.date{
+	background-color: #71D161;
+	border-top-right-radius: 1px;
+	border-top-left-radius: 1px;
+}
