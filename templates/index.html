@@ -1,7 +1,16 @@
+<form>
+  <div class="row">
+    <div class="large-12 columns noPadding">
+		<input type="text" ng-model="searchText" placeholder="Search..." class="searchbox">
+    </div>
+  </div>
+</form>
 <div class="row">
-	<input ng-model="searchText" placeholder="Search...">
 	<div ng-repeat="match in matches | filter:searchText" class="center">
 		<div class="match large-12 columns noPadding">
+		<div class="row">
+			
+		</div>
 			<div class="date">Dagsetning: {{ match.date }}</div>
 			<div class="time">Kl: {{ match.time }}</div>
 			<div class="teams">Lið: {{ match.teams }}</div>
