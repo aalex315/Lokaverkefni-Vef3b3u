@@ -1,13 +1,11 @@
-<!-- awayTeam, date, homeTeam, location, time, tournament -->
 <div class="row">
 	<div ng-repeat="match in matches | filter:searchText" class="center">
 		<div class="match large-12 columns noPadding">
 			<div class="date">Dagsetning: {{ match.date }}</div>
 			<div class="time">Kl: {{ match.time }}</div>
-			<div class="teams">Heimalið: {{ match.homeTeam }}</div>
-			<div class="teams">Gestirnir: {{ match.awayTeam }}</div>
+			<div class="teams">Lið: {{ match.teams }}</div>
 			<div class="venue">Völlur: {{ match.location }}</div>
-			<div class="tournament">Keppni: {{ match.tournament }}</div>
+			<div class="score">Niðurstaða: {{ match.scores }}</div>
 		</div>
 	</div>
 </div>

@@ -6,6 +6,10 @@ app.config(['$routeProvider',
       when('/', {
         templateUrl: 'templates/index.html',
         controller: 'IndexController'
+      }).
+      when('/MalePepsi', {
+      	templateUrl: 'templates/male-pepsi.html',
+      	controller: 'MalePepsiController'
       });
   }
 ]);
