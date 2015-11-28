@@ -10,6 +10,18 @@ app.config(['$routeProvider',
       when('/MalePepsi', {
       	templateUrl: 'templates/leagues.html',
       	controller: 'MalePepsiController'
+      }).
+      when('/Male1st', {
+        templateUrl: 'templates/leagues.html',
+        controller: 'Male1stController'
+      }).
+      when('/FemalePepsi', {
+        templateUrl: 'templates/leagues.html',
+        controller: 'FemalePepsiController'
+      }).
+      when('/FemaleBorgun', {
+        templateUrl: 'templates/leagues.html',
+        controller: 'FemaleBorgunController'
       });
   }
 ]);

@@ -2,7 +2,7 @@
 	<div ng-repeat="match in matches | filter:searchText" class="center">
 		<div class="match large-12 columns noPadding">
 			<div class="tournament">Keppni: {{ match.tournament }}</div>
-			<div class="venue">Völlur: {{ match.location }}</div>
+			<div class="venue">{{ match.location }}</div>
 			<div class="teams">{{ match.homeTeam }} - {{ match.awayTeam }}</div>
 			<div class="date">{{ match.date }}</div>
 			<div class="time">Kl: {{ match.time }}</div>
