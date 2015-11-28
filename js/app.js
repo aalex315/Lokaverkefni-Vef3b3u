@@ -8,7 +8,7 @@ app.config(['$routeProvider',
         controller: 'IndexController'
       }).
       when('/MalePepsi', {
-      	templateUrl: 'templates/male-pepsi.html',
+      	templateUrl: 'templates/leagues.html',
       	controller: 'MalePepsiController'
       });
   }
