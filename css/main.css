@@ -1,8 +1,11 @@
+body{
+	font-family: 'Droid-Sans', sans-serif;
+}
 li{
 	list-style-type: none;
 }
 /*#49A34B*/
-/*#5AB953   -*/
+/*#5AB953*/
 /*#71D161*/
 /*#BEEE9E*/
 /*#E6FFBF*/
@@ -12,7 +15,9 @@ li{
 }
 h1{
 	margin:0;
-	color: white;
+}
+.white{
+	color: white;	
 }
 .center{
 	text-align: center;
@@ -22,15 +27,9 @@ h1{
 }
 
 .match{
-	background-color: #e8e8e8;
+	background-color: #71D161;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	border-radius: 1px;
-}
-.date{
-	background-color: #71D161;
-	border-top-right-radius: 1px;
-	border-top-left-radius: 1px;
 }
 .noPadding{
 	padding: 0;
@@ -45,15 +44,21 @@ h1{
 }
 .green:hover{
 	background-color: #BEEE9E;
-	color: black;
+	color: #49A34B;
 }
 .green:active{
 	background-color: #BEEE9E;
+	color: #49A34B;
 }
 .green:link{
 	background-color: #BEEE9E;
+	color: #49A34B;
 }
 .button{
 	margin-bottom: 0;
 	margin-top: 10px;
+}
+.teams{
+	font-size: 200%;
+	text-align: center;
 }
